@@ -1,27 +1,31 @@
 @media screen and (max-width: 600px) {
-.column {
-    width: 100%;
+    .column {
+        width: 100%;
+    }
 }
+html {
+    width: 100%;
 }
 body{
     height: 100%;
-    background-color: #17252A;
+    background-color: #DEF2F1;
 }
 .col {
     float: left;
     height: auto;
 }
 .left {
-    width: 18%;
+    width: 15%;
     background-color:#3AAfa9;
-    border: 2px solid;
     border-radius: 3%;
-    height: 100%;
+    height: calc(100vh - 30px);
+    position: fixed;
+    
 
 }
 .right {
-    width: 75%;
-    margin-left: 1%;
+    width: 65%;
+    margin-left: 25%;
 }
 .row:after {
     content: "";
@@ -33,7 +37,7 @@ body{
 .navUl {
     margin-top: 5%;
     padding: 0;
-    height: 100%;
+    height: fit-content;
     text-align: center;
 }
 
@@ -73,9 +77,6 @@ body{
     width: 90%;
 }
 
-#nameTitle {
-
-}
 
 #jobTitle{
     margin-top: -6%;
@@ -85,16 +86,41 @@ body{
     background-color: #3AAfa9;
     padding-top: 40%;
     border-radius: 3%;
+    
 
 }
 
 hr {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 100%);
-    width: 80%;
+    border: 0;
+    height: 1px;
+    margin-top: 70%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 } 
 .socialLi {
     display: inline-block;
     margin-right: 10%;
     list-style: none;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.project {
+    margin-bottom: 30px;
+    margin-right: 75px;
+	width: 390px;
+	height: 490px;
+	text-align: center;
+	border-radius: 8px;
+    border: 2px solid;
+    background-color: #cecece ;
+}
+
+.infoContainer {
+    
 }
