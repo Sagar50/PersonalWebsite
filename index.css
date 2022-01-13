@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
@@ -102,25 +103,63 @@ hr {
     list-style: none;
 }
 
-.wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-
 .project {
-    margin-bottom: 30px;
-    margin-right: 75px;
-	width: 390px;
-	height: 490px;
 	text-align: center;
 	border-radius: 8px;
     border: 2px solid;
-    background-color: #cecece ;
+    margin-right: 60px;
+    height: 300px;
 }
 
-.infoContainer {
-    
+
+.imgContainer {
+    border: 2px solid;
+    width: auto;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+.center {
+    margin-top: 5%;
+    width: auto;
+}
+
+.aboutContent {
+    text-align: center;
+    margin: auto;
+}
+
+.aboutText {
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+}
+#aboutPTag {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.card
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width:300px;
+    background-color:white;
+    border-radius:40px;
+    padding-bottom:15px;
+}
+
+
+.qRow, .eduRow {
+    margin-top: 100px;
+    margin-right: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.qCol, .eduCol {
+    margin: auto;
+}
+
